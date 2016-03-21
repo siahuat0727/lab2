@@ -27,8 +27,8 @@ int main()
 		BMI CalculateBMI(h, m);
 		if(h == 0 && m == 0) break;
 		outFile << fixed << setprecision(2) 
-			    <<CalculateBMI.getBMI(h, m) << "\t" 
-			    << CalculateBMI.getResult( CalculateBMI.getBMI(h, m) ) << endl;
+ 			     <<CalculateBMI.getBMI(h, m) << "\t" 
+			     << CalculateBMI.getResult() << endl;
 	}
 
 	return 0;

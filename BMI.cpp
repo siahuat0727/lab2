@@ -10,7 +10,7 @@ float BMI::getBMI(int height,int mass) {
 	return BMI_value;
 }
 
-string BMI::getResult(float BMI_value) {
+string BMI::getResult() {
 	if     (BMI_value < 15)   result = "Very severely underweight";
 	else if(BMI_value < 16)   result = "Severely underweight";
 	else if(BMI_value < 18.5) result = "Underweight";

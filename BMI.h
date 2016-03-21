@@ -5,7 +5,7 @@ class BMI {
 public:
 	BMI(int h, int m);
 	float getBMI(int height,int mass);
-	string getResult(float BMI_value);
+	string getResult();
 	
 private:
 	int height, mass;
